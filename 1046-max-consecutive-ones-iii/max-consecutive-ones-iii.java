@@ -4,6 +4,7 @@ class Solution {
        int left = 0;
        int zeroCount = 0;
        int maxAns = 0;
+       int n = nums.length;
 
        for(int r = 0; r < nums.length; r++){
 
@@ -20,7 +21,7 @@ class Solution {
         
        }
 
-       return nums.length - left;
+       return n - left;
     }
 }
 
