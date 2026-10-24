@@ -17,10 +17,10 @@ class Solution {
             }
             left++;
         }
-        maxAns = Math.max(maxAns, r - left + 1);
+        
        }
 
-       return maxAns;
+       return nums.length - left;
     }
 }
 
